@@ -1,0 +1,62 @@
+{
+    "lostSectors": [
+        {
+            "name": "K1 Crew Quarters",
+            "location": "Hell Mouth, Moon"
+        },
+        {
+            "name": "K1 Logistics",
+            "location": "Archer's Line, Moon"
+        },
+        {
+            "name": "Metamorphosis",
+            "location": "Miasma, Throne World"
+        },
+        {
+            "name": "Sepulcher",
+            "location": "Florescent Canal, Throne World"
+        },
+        {
+            "name": "Extraction",
+            "location": "Quagmire, Throne World"
+        },
+        {
+            "name": "Veles Labryinth",
+            "location": "Forgotten Shore, Cosmodrone"
+        },
+        {
+            "name": "Exodus Garden 2A",
+            "location": "The Divide, Cosmodrone"
+        },
+        {
+            "name": "Aphelion's Rest",
+            "location": "The Strand, Dreaming City"
+        },
+        {
+            "name": "Bay of Drowned Wishes",
+            "location": "Divalian Mists, Dreaming City"
+        },
+        {
+            "name": "Chamber of Starlight",
+            "location": "Rheasilvia, Dreaming City"
+        },
+        {
+            "name": "K1 Revelation",
+            "location": "Sorrow's Harbor, Moon"
+        }
+    ],
+    "armor" : [
+        {
+            "type": "Chest"
+        },
+        {
+            "type": "Head"
+        },
+        {
+            "type": "Legs"
+        },
+        {
+            "type": "Arms"
+        }
+    ]
+}
