@@ -7,7 +7,7 @@ require('dotenv').config()
 //console.log(process.env)
 
 const quria = new QuriaAPI({
-	API_KEY: "2631dbafe8c34c1eb84caafa8d7cb8d5"
+	API_KEY: process.env.API_KEY
 });
 
 // Define configuration options
