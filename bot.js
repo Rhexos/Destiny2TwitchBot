@@ -3,6 +3,8 @@ const tmi = require('tmi.js');
 const fs = require('fs');
 const url = require('https');
 const QuriaAPI = require('quria');
+require('dotenv').config()
+//console.log(process.env)
 
 const quria = new QuriaAPI({
 	API_KEY: "2631dbafe8c34c1eb84caafa8d7cb8d5"
@@ -11,8 +13,8 @@ const quria = new QuriaAPI({
 // Define configuration options
 const opts = {
   identity: {
-    username: "rhexos",
-    password: "oauth:80y0627ghqh51qas69cn4xjz8beiwh",
+    username: process.env.BOT_USERNAME,
+    password: process.env.OAUTH_TOKEN
   },
   channels: ["rhexos", "ampfy"]
 };
